@@ -12,8 +12,10 @@ public class InstaParserApplication {
 	public static void main(String[] args) throws IOException {
 		SpringApplication.run(InstaParserApplication.class, args);
 		InstagramService instagramService = new InstagramService();
-		instagramService.initInstaService();
-		instagramService.getUserInfo();
+		instagramService.initService();
+//		instagramService.getUserFullName();
+//		instagramService.getUserFollowers();
+		instagramService.getUserReaders();
 	}
 
 }
