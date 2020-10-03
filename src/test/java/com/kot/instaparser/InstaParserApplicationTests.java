@@ -1,10 +1,10 @@
-package com.kot.istaparser;
+package com.kot.instaparser;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class IstaParserApplicationTests {
+class InstaParserApplicationTests {
 
 	@Test
 	void contextLoads() {

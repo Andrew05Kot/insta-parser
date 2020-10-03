@@ -1,13 +1,13 @@
-package com.kot.istaparser;
+package com.kot.instaparser;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class IstaParserApplication {
+public class InstaParserApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(IstaParserApplication.class, args);
+		SpringApplication.run(InstaParserApplication.class, args);
 	}
 
 }
